@@ -100,7 +100,7 @@ def main():
 
         # Open AI API 키 입력받기  -- 0.28 버전까지의 코딩방식
         openai.api_key = st.text_input(label="OPENAI API 키", placeholder="Enter Your API Key", 
-                                       value="sk-proj-EcoEJRASoxOUXVj0mtTNT3BlbkFJzlwHCImiO6xoJYddLswN", type="password")
+                                       value="", type="password")
 
         st.markdown("---")
 
